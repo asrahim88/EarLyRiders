@@ -18,12 +18,12 @@ const useStyles = makeStyles({
     },
 });
 const HomeDetails = (props) => {
-    const { name, photo } = props.rider;
+    const { name, photo, id } = props.rider;
     const classes = useStyles();
     return (
         <Grid item xs={12} sm={3}>
             <Container>
-                <Link to = '/destination'>
+                <Link to = {'/'+id}>
                     <Card className={classes.root}>
                         <CardActionArea>
                             <CardContent>

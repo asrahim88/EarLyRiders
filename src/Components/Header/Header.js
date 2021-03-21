@@ -16,7 +16,7 @@ const Header = () => {
                 <Grid item xs={12} sm={6}>
                     <nav>
                         <Link className='hover' to="/home">Home</Link>
-                        <Link className='hover' to="/destination">Destination</Link>
+                        <Link className='hover' to = '/key'> Destination </Link>
                         <Link className='hover' to="/blog">Blog</Link>
                         <Link className='hover' to="/contact">Contact</Link>
                         {loggedInUser.success || loggedInUser.isSignedIn ? <span className='userName'>{loggedInUser.name}</span> :
