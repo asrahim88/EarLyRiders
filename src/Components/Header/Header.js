@@ -19,7 +19,7 @@ const Header = () => {
                         <Link className='hover' to="/destination">Destination</Link>
                         <Link className='hover' to="/blog">Blog</Link>
                         <Link className='hover' to="/contact">Contact</Link>
-                        {loggedInUser.success || loggedInUser.isSignedIn ? <span>{loggedInUser.name}</span> :
+                        {loggedInUser.success || loggedInUser.isSignedIn ? <span className='userName'>{loggedInUser.name}</span> :
                             <Link to="/login">
                                 <Button variant="contained" color="primary" href="#contained-buttons">
                                     Login

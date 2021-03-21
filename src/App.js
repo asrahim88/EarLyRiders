@@ -7,10 +7,11 @@ import {
 } from "react-router-dom";
 import Header from './Components/Header/Header';
 import Home from './Components/Home/Home';
-import CreateAccount from './Components/CreateAccount/CreateAccount';
+import LogIn from './Components/LogIn/LogIn';
 import Destination from './Components/Destination/Destination';
 import Blog from './Components/Blog/Blog';
 import Contact from './Components/Contact/Contact';
+import PrivateRoute from './Components/PrivateRoute/PrivateRoute';
 
 export const UserContext = createContext();
 
@@ -28,24 +29,24 @@ function App() {
   });
   return (
     <UserContext.Provider value={[loggedInUser, setLoggedInUser]}>
-      <div className="appBody">
+      <div className = 'appBody'>
         <Router>
           <Header></Header>
           <Switch>
             <Route path='/home'>
               <Home></Home>
             </Route>
-            <Route path='/destination'>
+            <PrivateRoute path='/destination'>
               <Destination></Destination>
-            </Route>
-            <Route path='/blog'>
+            </PrivateRoute>
+            <PrivateRoute path='/blog'>
               <Blog></Blog>
-            </Route>
-            <Route path="/contact">
+            </PrivateRoute>
+            <PrivateRoute path="/contact">
               <Contact></Contact>
-            </Route>
+            </PrivateRoute>
             <Route path="/login">
-              <CreateAccount></CreateAccount>
+              <LogIn></LogIn>
             </Route>
             
             <Route path="/">

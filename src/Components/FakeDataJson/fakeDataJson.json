@@ -1,17 +1,25 @@
 [{
     "id": 1,
     "name": "Bike",
+    "count": 2,
+    "price": 70,
     "photo": "https://i.ibb.co/ZMLcD53/bike.png"
   }, {
     "id": 2,
     "name": "Car",
+    "count": 6,
+    "price": 80,
     "photo": "https://i.ibb.co/S3b59Ty/Frame-2.png"
   }, {
     "id": 3,
     "name": "Bus",
+    "count": 10,
+    "price": 150,
     "photo": "https://i.ibb.co/JKqHy5N/Frame-1.png"
   }, {
     "id": 4,
     "name": "Train",
+    "count": 4,
+    "price": 100,
     "photo": "https://i.ibb.co/PznfBkv/Group.png"
   }]
