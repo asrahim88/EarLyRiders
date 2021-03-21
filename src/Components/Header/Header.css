@@ -1,0 +1,25 @@
+ nav {
+    line-height: 40px;
+    font-size: 20px;
+    margin-top: 30px
+}
+.hover:hover{
+    background-color:rgb(65, 159, 221);
+}
+nav a {
+    text-decoration: none;
+    color: rgba(14, 11, 11, 0.945);
+    margin-right: 20px;
+    padding: 7px;
+}
+
+.logo{
+    margin-top: 20px !important;
+    font-family:  sans-serif;
+    color: rgba(38, 41, 73, 0.945);
+}
+.userName{
+    color: rgba(18, 4, 59, 0.945);
+    font-weight:800;
+}
+

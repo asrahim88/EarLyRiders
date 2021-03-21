@@ -1,0 +1,14 @@
+.imgBox{
+    width: 200px;
+    height: 150px;
+}
+.imgBox img {
+    width: 100%;
+}
+.nameBox{
+    text-align: center;
+    color: rgba(38, 41, 73, 0.945);
+}
+a {
+    text-decoration: none;
+}
