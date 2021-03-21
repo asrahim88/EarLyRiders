@@ -137,6 +137,9 @@ const Destination = () => {
                     }
                 </Grid>
                 <Grid item xs={12} sm={8}>
+                    <div className= "mapBox" >
+                        <img src="https://i.ibb.co/dKmMRnM/Map.png" alt="" />
+                    </div>
                 </Grid>
             </Grid>
         </Container>

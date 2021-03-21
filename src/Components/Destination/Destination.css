@@ -88,3 +88,11 @@
 .to{
     margin-left: 20px;
 }
+.mapBox{
+    height: 400px !important;
+    width: 500px !important;
+    margin-left: 50px;
+}
+.mapBox img {
+    width: 100%;
+}
